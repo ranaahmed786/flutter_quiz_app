@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
 
-class StartMenu extends StatefulWidget {
-  const StartMenu({super.key});
-  @override
-  State<StartMenu> createState() => _StartMenuState();
-}
-
-class _StartMenuState extends State<StartMenu> {
+class StartMenu extends StatelessWidget {
+  const StartMenu(this.startQuiz, {super.key});
+  final void Function() startQuiz;
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset('assets/images/quiz-logo.png', width: 300, height: 400),
+          Image.asset(
+            'assets/images/quiz-logo.png',
+            width: 300,
+            height: 400,
+            color: Color.fromARGB(214, 255, 255, 255),
+          ),
           SizedBox(height: 20),
           Text(
             'Learn Flutter the fun way',
@@ -22,13 +23,11 @@ class _StartMenuState extends State<StartMenu> {
               fontWeight: FontWeight.w600,
               color: Colors.white,
             ),
+            textAlign: TextAlign.center,
           ),
           SizedBox(height: 20),
           ElevatedButton.icon(
-            onPressed: () {
-              // Navigate to the quiz screen
-              Navigator.pushNamed(context, '/quiz');
-            },
+            onPressed: startQuiz,
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.transparent,
               foregroundColor: Colors.white,
