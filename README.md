@@ -268,7 +268,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Rana Ahmed**
 - GitHub: [@ranaahmed786](https://github.com/ranaahmed786)
 - Email: ranamuhammadahmed6@gmail.com
-- Project Repository: [FlutterQuizApp](https://github.com/ranaahmed786/FlutterQuizApp)
+- Project Repository: [flutter_quiz_app](https://github.com/ranaahmed786/flutter_quiz_app)
 
 ## 🙏 Acknowledgments
 
