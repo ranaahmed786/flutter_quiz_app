@@ -27,13 +27,11 @@ The Flutter Quiz App features a modern, intuitive interface designed with Materi
 - **Consistent Typography**: Lato font family ensures readability across all screen sizes
 - **Interactive Elements**: Thoughtfully designed buttons and transitions for smooth user interaction
 - 
-<img width="488" height="1010" alt="image" src= />
+
 
 ### Screen Overview
 
 <div align="center">
-<img width="488" height="1016" alt="image" src= />
-<img width="483" height="1013" alt="image" src= />
 
 <table>
   <tr>
@@ -51,17 +49,6 @@ The Flutter Quiz App features a modern, intuitive interface designed with Materi
     <td>
       <img src="https://github.com/user-attachments/assets/6b0d04a6-d32a-4aed-aea9-25121af691ae" alt="Result Screen" width="200" height="400"/>
     </td>
-  </tr>
-
-  <tr>
-    <td><strong>Completed Operation</strong></td>
-    <td colspan="2"></td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/08f51539-8c7e-40f8-9724-f294e006226f" alt="Completed" width="200" height="400"/>
-    </td>
-    <td colspan="2"></td>
   </tr>
 </table>
 
