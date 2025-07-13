@@ -26,8 +26,6 @@ The Flutter Quiz App features a modern, intuitive interface designed with Materi
 - **Gradient Aesthetics**: Beautiful blue-to-purple gradients create visual depth and appeal
 - **Consistent Typography**: Lato font family ensures readability across all screen sizes
 - **Interactive Elements**: Thoughtfully designed buttons and transitions for smooth user interaction
-- 
-
 
 ### Screen Overview
 
